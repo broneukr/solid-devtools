@@ -1,0 +1,26 @@
+
+> @solid-devtools/overlay@0.3.1 build /workspace/solid-devtools/packages/overlay
+> tsup
+
+CLI Building entry: src/index.tsx, src/server.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.5.0
+CLI Using tsup config: /workspace/solid-devtools/packages/overlay/tsup.config.ts
+CLI Target: esnext
+CLI Cleaning output folder
+CJS Build start
+ESM Build start
+"runWithOwner", "createResource" and "splitProps" are imported from external module "solid-js" but never used in "dist/index.cjs".
+"noop", "asArray" and "access" are imported from external module "@solid-primitives/utils" but never used in "dist/index.cjs".
+"runWithOwner", "createResource" and "splitProps" are imported from external module "solid-js" but never used in "dist/index.js".
+"noop", "asArray" and "access" are imported from external module "@solid-primitives/utils" but never used in "dist/index.js".
+DTS Build start
+CJS dist/server.cjs 69.00 B
+CJS dist/index.cjs  93.75 KB
+CJS ⚡️ Build success in 1284ms
+ESM dist/chunk-47G5FDLU.js 704.00 B
+ESM dist/server.js         89.00 B
+ESM dist/index.js          90.27 KB
+ESM ⚡️ Build success in 1285ms
+DTS ⚡️ Build success in 2293ms
+DTS dist/index.d.ts 300.00 B
